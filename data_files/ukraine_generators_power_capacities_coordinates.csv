@@ -1,0 +1,65 @@
+generator_name,power_capacity_mv,latitude,longitude,power_type
+Bolgrad,34.1,45.765,28.599,Solar
+Burshtyn power station,2334,49.2104,24.6665,Coal
+Cherkasy power station,180,49.3905,32.0674,Coal
+Cherniatka,7.7,48.481,29.689,Solar
+Chernihiv power station,200,51.455,31.2602,Coal
+Darnytska power station,150,50.4478,30.6429,Coal
+Dneipro HPP 2,1538,47.8675,35.0897,Hydro
+Dniester,1350,48.5136,27.4733,Hydro
+Dniprodzerzhynsk,357,48.5485,34.541,Hydro
+Dobrotvir power station,500,50.2133,24.375,Coal
+Dunayskaya,43.2,45.98,29.462,Solar
+Gnatkiv,5,48.466,28.453,Solar
+Kakhovka,343,46.7786,33.3697,Hydro
+Kalush power station,240,49.0705,24.3185,Coal
+Kaniv,528,49.7665,31.4717,Hydro
+Karkov CHP-5,540,49.9719,36.107,Gas
+Khmelnytska,2000,50.3024,26.6473,Nuclear
+Kiev,440,50.5883,30.5118,Hydro
+Kiev (pumped storage),235,50.6113,30.4902,Hydro
+Kiev CHP-5,1200,50.3932,30.5695,Gas
+Kiev CHP-6,500,50.532,30.6625,Gas
+Kramatorskaya power station,120,48.7477,37.5723,Coal
+Kremenchug,625,49.0748,33.2531,Hydro
+Kryvorizka power station,1764,47.5432,33.6583,Coal
+Kurakhov power station,1517,47.9944,37.2402,Coal
+Ladyzhyn power station,1800,48.706,29.2202,Coal
+Lazurne,9.5,46.097,32.478,Solar
+Limanskaya,43.4,45.468,28.249,Solar
+Luhanska,1210,48.7478,39.2624,Coal
+Mironovskaya,815,48.3407,38.4049,Coal
+Mityaevo,31.6,45.2364,33.6776,Solar
+Nikolayevka,69.8,44.967,33.752,Solar
+Nikopol,10.7,47.775,34.095,Solar
+Ohotnikovo,76,45.28,33.6011,Solar
+Perovo,86.6,44.958,33.923,Solar
+Perovo I,20,44.958,33.923,Solar
+Perovo II,20,44.958,33.923,Solar
+Perovo III,20,44.958,33.923,Solar
+Perovo IV,20,44.958,33.923,Solar
+Perovo V,25.6,44.958,33.923,Solar
+Porogi,4.5,48.2514,28.3341,Solar
+Priozernaya,54.8,45.467,29.292,Solar
+Prydniprovska power station,1195,48.4052,35.1135,Coal
+Rivne (Rouno),2835,51.3245,25.8974,Nuclear
+Rodnikovoye,7.6,45.036,33.931,Solar
+Sambyrska II,7,49.507,23.23,Solar
+Shargorod,8,48.785,28.06,Solar
+Sievierodonetsk CHP power station,210,48.9381,38.4563,Coal
+Slavyansk power station,600,48.872,37.7657,Coal
+South Ukraine,3000,47.812,31.22,Nuclear
+Starobeshivska,1775,47.7997,38.0061,Coal
+Starokozache,43,46.344,30.004,Solar
+Stravchany,4.9,48.751,27.313,Solar
+Tashlyk,313,47.7968,31.1811,Hydro
+Trypilska,1800,50.1344,30.7468,Coal
+Vesele,16,47.075,34.93,Solar
+Vita,13.5,47.645,31.89,Solar
+Voznesenk,29.3,47.572,31.396,Solar
+Vuglegirska power station,3600,48.4652,38.2027,Coal
+Vysokopillya,4,47.495,33.538,Solar
+Zaporizhia power station,2825,47.5089,34.6253,Coal
+Zaporozhye,6000,47.5119,34.5863,Nuclear
+Zmiivska power station,2425,49.5853,36.5236,Coal
+Zuevskaya power station,1290,48.0332,38.2887,Coal

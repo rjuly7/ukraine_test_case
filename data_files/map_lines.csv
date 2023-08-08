@@ -1,0 +1,177 @@
+﻿from,from_type,to,to_type,voltage_kv
+Kovel,City,Rivne (Rouno),Generator ,330
+Kovel,City,Lutsk,City,220
+Kovel,City,Novovolynsk,City,330
+Novovolynsk,City,Dobrotvir power station,Generator ,220
+Dobrotvir power station,Generator,Lutsk,City,220
+Dobrotvir power station,Generator,Radyvyliv,City,220
+Dobrotvir power station,Generator,Lviv,City,220
+Lviv,City,Yavoriv,City,330
+Lviv,City,Novyi Rozdil,City,220
+Lviv,City,Stryi,City,220
+Stryi,City,Boryslav,City,220
+Stryi,City,Burshtyn power station,Generator ,220
+Stryi,City,Volovets,City,220
+Stryi,City,Mukacheve,City,220
+Mukacheve,City,Khust,City,220
+Mukacheve,City,Burshtyn power station,Generator ,330
+Bohorodchany,City,Ivano-Frankivsk,City,330
+Ivano-Frankivsk,City,Burshtyn power station,Generator ,330
+Ivano-Frankivsk,City,Chernivtsi,City,330
+Burshtyn power station,Generator,Kalush,City,220
+Burshtyn power station,Generator,Zakhidnoukrainska,Substation,330
+Burshtyn power station,Generator,Ternopil,City,330
+Zakhidnoukrainska,Substation,Lviv,City,330
+Zakhidnoukrainska,Substation,Rivne (Rouno),Generator ,750
+Zakhidnoukrainska,Substation,Rivne ,City,330
+Zakhidnoukrainska,Substation,Khmelnytska,Generator ,750
+Zakhidnoukrainska,Substation,Vinnytsia substation,Substation,750
+Zakhidnoukrainska,Substation,Radyvyliv,City,330
+Radyvyliv,City,Rivne,City,330
+Lutsk,City,Hrabiv,City,220
+Lutsk,City,Rivne (Rouno),Generator ,330
+Rivne (Rouno),Generator,Hrabiv,City,330
+Rivne (Rouno),Generator,Rivne,City,330
+Rivne (Rouno),Generator,Kyivska substation,Substation,750
+Hrabiv,City,Rivne,City,330
+Rivne ,City,Khmelnytska,Generator ,330
+Ternopil,City,Khmelnytskyi,City,330
+Chernivtsi,City,Kamianets-Podilskyi,City,330
+Khmelnytska,Generator,Kyivska substation,Substation,750
+Khmelnytska,Generator,Shepetivka,City,330
+Khmelnytska,Generator,Khmelnytskyi,City,330
+Shepetivka,City,Zhytomyr,City,330
+Khmelnytskyi,City,Bar,City,330
+Bar,City,Vinnytsia,City,330
+Bar,City,Dniester,Generator ,330
+Dniester,Generator,Kamianets-Podilskyi,City,330
+Dniester,Generator,Ladyzhyn power station,Generator ,330
+Vinnytsia,City,Vinnytsia substation,Substation,330
+Vinnytsia,City,Ladyzhyn power station,Generator ,330
+Vinnytsia substation,Substation,Koziatyn,City,330
+Vinnytsia substation,Substation,Kyivska substation,Substation,750
+Vinnytsia substation,Substation,South Ukraine,Generator ,750
+Vinnytsia substation,Substation,Ladyzhyn power station,Generator ,330
+Koziatyn,City,Bila Tserkva,City,330
+Zhytomyr,City,Lisova substation,Substation,330
+Zhytomyr,City,Trypilska,Generator ,330
+Kyivska substation,Substation,Pivnichna substation,Substation,330
+Kyivska substation,Substation,Novokyivska substation,Substation,330
+Kyivska substation,Substation,Chornobyl substation,Substation,750
+Lisova substation,Substation,Chornobyl substation,Substation,330
+Chornobyl substation,Substation,Pivnichna substation,Substation,330
+Chornobyl substation,Substation,Slavutych,City,330
+Slavutych,City,Chernihiv,City,330
+Chernihiv,City,Nizhyn,City,330
+Novokyivska substation ,Substation,Nyvky substation,Substation,330
+Kiev (pumped storage),Generator,Pivnichna substation,Substation,330
+Pivnichna substation,Substation,Kiev CHP-6,Generator ,330
+Novokyivska substation ,Substation,Kiev CHP-5,Generator ,330
+Novokyivska substation ,Substation,Trypilska,Generator ,330
+Kiev CHP-6,Generator,Brovary,City,330
+Kiev CHP-5,Generator,Brovary,City,330
+Nizhyn,City,Brovary,City,330
+Nizhyn,City,Konotop,City,330
+Trypilska,Generator,Bila Tserkva,City,330
+Trypilska,Generator,Kaniv,Generator ,330
+Ladyzhyn power station,Generator,Pobuzka substation,Substation,330
+Ladyzhyn power station,Generator,Podilsk,City,330
+Tashlyk,Generator,South Ukraine,Generator ,330
+Pobuzka substation,Substation,South Ukraine,Generator ,330
+South Ukraine,Generator,Dniprovska,Substation,750
+South Ukraine,Generator,Ukrainka substation,Substation,330
+South Ukraine,Generator,Kvartsyt substation,Substation,330
+South Ukraine,Generator,Trykhaty substation,Substation,330
+South Ukraine,Generator,Adzhalyk substation,Substation,330
+Adzhalyk substation,Substation,Usatove substation,Substation,330
+Usatove substation,Substation,Novoodeska substation,Substation,330
+Trykhaty substation,Substation,Kryvorizka power station,Generator ,330
+Trykhaty substation,Substation,Mikolaivska substation,Substation,330
+Trykhaty substation,Substation,Adzhalyk substation,Substation,330
+Kaniv,Generator,Cherkasy,City,330
+Cherkasy,City,Kremenchug,Generator ,330
+Kremenchug,Generator,Kremenchuk ,City,330
+Kremenchuk,City,Myrhorod,City,330
+Kremenchuk,City,Poltava,City,330
+Myrhorod,City,Pivnichnoukrainska,Substation,330
+Poltava,City,Pivnichnoukrainska,Substation,330
+Pivnichnoukrainska,Substation,Sumy Pivnichna,Substation,330
+Konotop,City,Shostka,City,330
+Konotop,City,Sumy ,City,330
+Sumy,City,Sumy Pivnichna,Substation,330
+Mikolaivska substation,Substation,Kherson,City,330
+Kherson,City,Kakhovka,Generator ,330
+Kakhovka,Generator,Kryvorizka power station,Generator ,330
+Kakhovka,Generator,Zaporizhia power station,Generator ,330
+Kakhovka,Generator,Zaporozhye,Generator ,750
+Kryvorizka power station,Generator,Himycha,Substation,330
+Kryvorizka power station,Generator,Pivdenna,Substation,330
+Kryvorizka power station,Generator,Kryvorizka ,Substation,330
+Kryvorizka power station,Generator,Nikopol,City,330
+Pivdenna,Substation,Pershotravneva,Substation,330
+Kryvorizka ,Substation,Pershotravneva,Substation,330
+Pershotravneva,Substation,Rudna substation,Substation,330
+Ukrainka substation,Substation,Rudna substation,Substation,330
+Kvartsyt substation,Substation,Rudna substation,Substation,330
+Pershotravneva,Substation,Dniprovska,Substation,330
+Pershotravneva,Substation,Kremenchug,Generator ,330
+Pershotravneva,Substation,Prydniprovska power station,Generator ,330
+Pershotravneva,Substation,Kamianske ,City,330
+Dniprovska,Substation,Kremenchuk ,City,330
+Dniprovska,Substation,WDHMK,Substation,330
+Dniprovska,Substation,Prometei,Substation,330
+Dniprovska,Substation,Zaporizhzhia,City,750
+Dniprovska,Substation,Zaporozhye,Generator ,750
+Prometei,Substation,Kamianske ,City,330
+Kamianske,City,Dnipro ,City,330
+Kamianske,City,Prydniprovska power station,Generator ,330
+Dnipro ,City,Prydniprovska power station,Generator ,330
+Dnipro,City,Zaporizhzhia,City,330
+Zaporizhzhia,City,Donbaska,Substation,750
+Zaporizhzhia,City,Kurakhov power station,Generator ,330
+Zaporizhzhia,City,Dnipro-Donbas,Substation,330
+Zaporizhzhia,City,Zaporozhye,Generator ,750
+Zaporizhzhia,City,Zaporizhia power station,Generator ,330
+Dnipro-Donbas,Substation,Pravoberezhna,Substation,330
+Dnipro-Donbas,Substation,Molochansk,City,330
+Pravoberezhna,Substation,Nikopol,City,330
+Nikopol,City,Ferosplavna,Substation,330
+Ferosplavna,Substation,Zaporizhia power station,Generator ,330
+Zaporizhia power station,Generator,Zaporozhye,Generator ,330
+Zaporizhia power station,Generator,Molochansk,City,330
+Zaporizhia power station,Generator,Melitopol,City,330
+Zaporozhye,Generator,Pivdennodonbaska,Substation,750
+Prydniprovska power station,Generator,Pichna,Substation,330
+Prydniprovska power station,Generator,Pavlohrad,City,330
+Lozova,City,Stepove,City,330
+Lozova,City,Tsentralna,Substation,330
+Pavlohrad,City,Bilytska,Substation,330
+Bilytska,Substation,Tsentralna,Substation,330
+Stepove,City,Zmiivska power station,Generator ,330
+Zmiivska power station,Generator,Poltava,City,330
+Zmiivska power station,Generator,Kharkiv,City,330
+Zmiivska power station,Generator,Zaliutyne,Substation,330
+Zmiivska power station,Generator,Loseve,Substation,330
+Zmiivska power station,Generator,Slavyansk power station,Generator ,330
+Kharkiv,City,Zaliutyne,Substation,330
+Kupiansk,City,Slavyansk power station,Generator ,330
+Slavyansk power station,Generator,Tsentralna,Substation,330
+Slavyansk power station,Generator,Donbaska,Substation,330
+Donbaska,Substation,Vuglegirska power station,Generator ,330
+Donbaska,Substation,Pivdennodonbaska,Substation,750
+Vuglegirska power station,Generator,Mykhailivka,City,330
+Vuglegirska power station,Generator,Makiivka,City,330
+Vuglegirska power station,Generator,Tsentralna,Substation,330
+Makiivka,City,Zuivska,Substation,330
+Kurakhov power station,Generator,Zuivska,Substation,330
+Zuivska,Substation,Khartsyzk,City,330
+Zuevskaya power station,Generator,Khartsyzk,City,330
+Khartsyzk,City,Pivdenna 2,Substation,330
+Khartsyzk,City,Zoria,Substation,330
+Zoria,Substation,Kurakhov power station,Generator ,330
+Zoria,Substation,Pivdennodonbaska,Substation,330
+Zoria,Substation,Mariupol,City,330
+Mykhailivka,City,Mironovskaya,Generator ,330
+Slavyansk power station,Generator,Kupiansk,City,330
+Donbaska,Substation,Novodonbaska,Substation,500
+Donbaska,Substation,Peremoha,Substation,500
