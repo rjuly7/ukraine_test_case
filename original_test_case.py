@@ -15,6 +15,11 @@ import line
 import substation 
 import bus 
 from build_functions import *
+import os 
+if not os.path.exists("data"):
+    os.makedirs("data")
+if not os.path.exists("figs"):
+    os.makedirs("figs")
 
 #Defining Constants
 EARTH_RADIUS = 6371 #km
