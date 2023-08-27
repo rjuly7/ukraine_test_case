@@ -1,5 +1,3 @@
-import numpy as np
-
 class Bus:
     def __init__(self, name: int, latitude: float, longitude: float, voltage_level : int, substation: int):
         self.name = name  

@@ -18,11 +18,6 @@ class Generator:
 
         self.power_type = power_type
 
-        # if(self.power_type == "Coal" or "Nuclear" or "Gas"):
-        #     self.voltage = 450 #V
-        # else:
-        #     self.voltage = 220 #V
-
         self.voltage = voltage_level
 
         mu = COSTS[self.power_type][0]

@@ -1,18 +1,14 @@
 # importing the module
 import pickle
-import json 
 import numpy as np 
 import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 infile = open('data/all_data.obj', 'rb')
 all_data = pickle.load(infile)
 infile.close()
-
-import pandas as pd
-import matplotlib.pyplot as plt
-
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 
 all_lines = all_data['line']
 all_buses = all_data['bus']

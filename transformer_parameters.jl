@@ -97,15 +97,6 @@ for lv in keys(voltages)
     end
 end
 
-# for i in keys(data["branch"])
-#     data["branch"][i]["rate_a"] = 10000
-# end
-
-# for i in keys(data["gen"])
-#     data["gen"][i]["qmin"] = -10000
-#     data["gen"][i]["qmax"] = 10000
-# end
-
 for i in keys(data["load"])
     data["load"][i]["pd"] = data["load"][i]["pd"]
     data["load"][i]["qd"] = data["load"][i]["qd"]
@@ -130,7 +121,6 @@ for (i,d) in diff
         br = data["branch"][i]
         old_rate = br["rate_a"]
         data["branch"][i]["rate_a"] = (br["rate_a"] + d)*1.1
-        #data["branch"][i]["br_x"] = br["br_x"]*old_rate/data["branch"][i]["rate_a"]
         f_bus = string(br["f_bus"])
         t_bus = string(br["t_bus"])
         fv = data["bus"][f_bus]["base_kv"]
@@ -145,7 +135,6 @@ for (i,d) in diff
         while xr_ratio < 0
             xr_ratio = rand(xr_ratio_dists[hv])
         end
-        #data["branch"][i]["br_r"] = br["br_x"]/xr_ratio  
         println(data["branch"][i]["rate_a"],data["branch"][i]["br_x"],data["branch"][i]["br_r"])      
     end
 end
@@ -155,7 +144,6 @@ export_matpower(case_path,data)
 data = parse_file(case_path);
 
 pm = instantiate_model(data, ACPPowerModel, PowerModels.build_opf)
-#print(pm.model)
 
 result = optimize_model!(pm, optimizer=Ipopt.Optimizer)
 
@@ -213,29 +201,3 @@ for hv in keys(other_stats)
     println("Xs: ")
     print_stuff(0.05,0.12,0.2,other_stats[hv]["xs"])
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

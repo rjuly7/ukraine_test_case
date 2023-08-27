@@ -1,13 +1,9 @@
-import math
-import pandas 
-from sklearn.cluster import KMeans
+import math 
 import numpy as np
-from sklearn.decomposition import PCA
 from scipy.spatial import Delaunay
-from scipy.sparse import csr_matrix, lil_matrix 
+from scipy.sparse import lil_matrix 
 from scipy.sparse.csgraph import minimum_spanning_tree
 from scipy.sparse.csgraph import connected_components
-
 import line
 import transformer 
 import pandapower as pp 
@@ -80,24 +76,6 @@ def find_bus_at_voltage(voltage,sub_idx,all_buses):
         if all_buses[i].voltage == voltage and all_buses[i].substation == sub_idx:
             idx = i
     return idx 
-
-# def combine_buses(all_substations,all_buses,all_generators,all_loads):
-#     for s in range(len(all_substations)):
-#         voltage_level = all_substations[s].voltage 
-#         for v in voltage_level:
-#             buses_v = get_substation_buses_at_voltage(s, v, all_buses)
-#             #Keep first bus, delete remaining buses
-#             for b in buses_v[1:]:
-#                 if all_buses[b].bus_type == GENERATOR_BUS:
-#                     gen_idx = get_generator(b,all_generators)
-#                     all_generators[gen_idx].gen_bus = buses_v[0]  #assign generators to first bus
-#                 elif all_buses[b].bus_type == LOAD_BUS:
-#                     load_idx = get_load(b,all_loads)
-#                     all_loads[load_idx].load_bus = buses_v[0]  #assign loads to first bus
-#                 else:
-#                     print("error: multiple buses at same voltage level in substation bus")
-#                 all_buses.pop(b)
-#     return all_substations,all_buses,all_generators,all_loads 
 
 def gen_is_in_map(generators_csv, map_lines_csv, idx):
     in_map = []

@@ -10,7 +10,6 @@ case_path = "test_case/ukraine_full.m";
 data = parse_file(case_path);
 
 pm = instantiate_model(data, ACPPowerModel, PowerModels.build_opf)
-#print(pm.model)
 
 result = optimize_model!(pm, optimizer=Ipopt.Optimizer)
 

@@ -1,21 +1,19 @@
 #Importing libraries
 import pandas as pd
 import math
-from sklearn.cluster import KMeans
 import numpy as np
-from sklearn.decomposition import PCA
-from scipy.spatial import Delaunay
-from scipy.sparse import csr_matrix
-from scipy.sparse.csgraph import minimum_spanning_tree
 import pandapower as pp 
 import json 
 import generator
 import load
-import line
 import substation 
 import bus 
 from build_functions import *
 import os 
+import geopandas as gpd
+from shapely.geometry import Point
+import matplotlib.pyplot as plt
+
 if not os.path.exists("data"):
     os.makedirs("data")
 if not os.path.exists("figs"):
@@ -63,6 +61,7 @@ all_buses = []
 bus_counter = 0
 substation_counter = 0
 all_substations = []
+
 #First input substations from map and create buses corresponding to voltage levels
 #These substations will not correspond to generator or load 
 for i in range(map_substations_csv.shape[0]):
@@ -263,10 +262,7 @@ mpc = pp.converter.to_mpc(net,filename,init='flat')
 
 #pp.rundcopp(net,verbose=True)
 
-############################plot#######################
-import pandas as pd
-import matplotlib.pyplot as plt
-
+###Plot###
 x_values = []
 y_values = []
 voltages = []
@@ -289,9 +285,6 @@ for i in range(len(all_loads)):
 gen_df = pd.DataFrame.from_dict(gens_for_map,orient='index')
 load_df = pd.DataFrame.from_dict(loads_for_map,orient='index')
 
-import geopandas as gpd
-from shapely.geometry import Point, Polygon
-import matplotlib.pyplot as plt
 street_map = gpd.read_file('data_files/stanford-nv937bq8361-shapefile/nv937bq8361.shp')
 crs = {'init':"EPSG:4326"}
 gen_geometry = [Point(xy) for xy in zip(gen_df['longitude'],gen_df['latitude'])]

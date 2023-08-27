@@ -1,5 +1,3 @@
-import numpy as np
-
 class Substation:
     def __init__(self, name: str, latitude: float, longitude: float, voltage_level : set):
         self.name = name
@@ -19,7 +17,3 @@ class Substation:
         
     def __str__(self) -> str:
         return str(self.dict)
-
-
-
-
